@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+frontend/dist/
+
+# Env
+.env
+*.local
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# AI model weights (downloaded via ai/scripts/download_models.py, not committed)
+ai/models/
+
+# Docker
+*.log
